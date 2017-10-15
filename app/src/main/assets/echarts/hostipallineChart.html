@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.js"></script>
+    <script src="theme.js"></script>
+</head>
+<body>
+<iframe name="action_frame" src="" style="display:none;"></iframe>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main7" style="height:370px;width:100%;"></div>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+
+     var myChart = echarts.init(document.getElementById('main7'),'theme');
+      function show(info){
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(info);
+    }
+
+    </script>
+</body>
+</html>

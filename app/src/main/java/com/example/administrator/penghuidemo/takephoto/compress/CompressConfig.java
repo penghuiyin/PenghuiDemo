@@ -4,9 +4,11 @@ package com.example.administrator.penghuidemo.takephoto.compress;
 
 
 
+import com.example.administrator.penghuidemo.takephoto.model.LubanOptions;
+
 import java.io.Serializable;
 
-import takephoto.model.LubanOptions;
+
 
 /**
  * 压缩配置类

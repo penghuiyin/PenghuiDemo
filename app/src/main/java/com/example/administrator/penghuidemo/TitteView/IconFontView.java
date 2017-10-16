@@ -9,7 +9,7 @@ import android.widget.TextView;
  * Created by Administrator on 2017/4/13.
  */
 
-public class IconFontView extends TextView {
+public class IconFontView extends android.support.v7.widget.AppCompatTextView {
     public static final String FONT_PATH = "iconfont.ttf";
     public static Typeface mTypeface;
     public IconFontView(Context context) {

@@ -3,6 +3,8 @@ package com.example.administrator.penghuidemo.takephoto.compress;
 import android.content.Context;
 
 
+import com.example.administrator.penghuidemo.takephoto.model.LubanOptions;
+import com.example.administrator.penghuidemo.takephoto.model.TImage;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -11,8 +13,6 @@ import java.util.List;
 import me.shaohui.advancedluban.Luban;
 import me.shaohui.advancedluban.OnCompressListener;
 import me.shaohui.advancedluban.OnMultiCompressListener;
-import takephoto.model.LubanOptions;
-import takephoto.model.TImage;
 
 
 /**

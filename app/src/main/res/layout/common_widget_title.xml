@@ -22,6 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
+                android:text="@string/arrow_left"
                 />
         </RelativeLayout>
 
@@ -67,7 +68,6 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:textColor="@color/white"
-                android:text="@string/arrow_left"
                 android:textSize="@dimen/text_size24"
                 />
         </RelativeLayout>
@@ -76,14 +76,13 @@
             android:id="@+id/rlyt_miv_right2"
             android:layout_width="50dp"
             android:layout_height="match_parent">
-            <com.example.administrator.penghuidemo.TitteView.IconFontViewS
+            <com.example.administrator.penghuidemo.TitteView.IconFontView
                 android:id="@+id/miv_right2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:textColor="@color/white"
-                android:text="@string/arrow_left"
                 android:textSize="@dimen/text_size24"
                 />
         </RelativeLayout>

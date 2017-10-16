@@ -6,12 +6,12 @@ import android.graphics.Bitmap.Config;
 import android.graphics.BitmapFactory;
 import android.os.Handler;
 
+import com.example.administrator.penghuidemo.takephoto.uitl.TFileUtils;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-
-import takephoto.uitl.TFileUtils;
 
 /**
  * 压缩照片

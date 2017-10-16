@@ -11,42 +11,41 @@ import android.support.v4.app.Fragment;
 import android.widget.Toast;
 
 
-import com.chuangweixin.app.R;
+import com.example.administrator.penghuidemo.R;
+import com.example.administrator.penghuidemo.takephoto.compress.CompressConfig;
+import com.example.administrator.penghuidemo.takephoto.compress.CompressImage;
+import com.example.administrator.penghuidemo.takephoto.compress.CompressImageImpl;
+import com.example.administrator.penghuidemo.takephoto.contents.Constants;
+import com.example.administrator.penghuidemo.takephoto.model.CropOptions;
+import com.example.administrator.penghuidemo.takephoto.model.Image;
+import com.example.administrator.penghuidemo.takephoto.model.MultipleCrop;
+import com.example.administrator.penghuidemo.takephoto.model.TContextWrap;
+import com.example.administrator.penghuidemo.takephoto.model.TException;
+import com.example.administrator.penghuidemo.takephoto.model.TExceptionType;
+import com.example.administrator.penghuidemo.takephoto.model.TImage;
+import com.example.administrator.penghuidemo.takephoto.model.TIntentWap;
+import com.example.administrator.penghuidemo.takephoto.model.TResult;
+import com.example.administrator.penghuidemo.takephoto.model.TakePhotoOptions;
+import com.example.administrator.penghuidemo.takephoto.permission.PermissionManager;
+import com.example.administrator.penghuidemo.takephoto.uitl.ImageRotateUtil;
+import com.example.administrator.penghuidemo.takephoto.uitl.IntentUtils;
+import com.example.administrator.penghuidemo.takephoto.uitl.TImageFiles;
+import com.example.administrator.penghuidemo.takephoto.uitl.TUriParse;
+import com.example.administrator.penghuidemo.takephoto.uitl.TUtils;
 import com.soundcloud.android.crop.Crop;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Map;
 
-import takephoto.compress.CompressConfig;
-import takephoto.compress.CompressImage;
-import takephoto.compress.CompressImageImpl;
-import takephoto.contents.Constants;
-import takephoto.model.CropOptions;
-import takephoto.model.Image;
-import takephoto.model.MultipleCrop;
-import takephoto.model.TContextWrap;
-import takephoto.model.TException;
-import takephoto.model.TExceptionType;
-import takephoto.model.TImage;
-import takephoto.model.TIntentWap;
-import takephoto.model.TResult;
-import takephoto.model.TakePhotoOptions;
-import takephoto.permission.PermissionManager;
-import takephoto.uitl.ImageRotateUtil;
-import takephoto.uitl.IntentUtils;
-import takephoto.uitl.TImageFiles;
-import takephoto.uitl.TUriParse;
-import takephoto.uitl.TUtils;
-
-import static takephoto.uitl.TConstant.RC_CROP;
-import static takephoto.uitl.TConstant.RC_PICK_MULTIPLE;
-import static takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_CAPTURE;
-import static takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_CAPTURE_CROP;
-import static takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_DOCUMENTS_CROP;
-import static takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_DOCUMENTS_ORIGINAL;
-import static takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_GALLERY_CROP;
-import static takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_GALLERY_ORIGINAL;
+import static com.example.administrator.penghuidemo.takephoto.uitl.TConstant.RC_CROP;
+import static com.example.administrator.penghuidemo.takephoto.uitl.TConstant.RC_PICK_MULTIPLE;
+import static com.example.administrator.penghuidemo.takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_CAPTURE;
+import static com.example.administrator.penghuidemo.takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_CAPTURE_CROP;
+import static com.example.administrator.penghuidemo.takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_DOCUMENTS_CROP;
+import static com.example.administrator.penghuidemo.takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_DOCUMENTS_ORIGINAL;
+import static com.example.administrator.penghuidemo.takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_GALLERY_CROP;
+import static com.example.administrator.penghuidemo.takephoto.uitl.TConstant.RC_PICK_PICTURE_FROM_GALLERY_ORIGINAL;
 
 
 public class TakePhotoImpl implements TakePhoto {

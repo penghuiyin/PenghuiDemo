@@ -5,12 +5,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import takephoto.model.InvokeParam;
-import takephoto.model.TContextWrap;
-import takephoto.model.TResult;
-import takephoto.permission.InvokeListener;
-import takephoto.permission.PermissionManager;
-import takephoto.permission.TakePhotoInvocationHandler;
+import com.example.administrator.penghuidemo.takephoto.model.InvokeParam;
+import com.example.administrator.penghuidemo.takephoto.model.TContextWrap;
+import com.example.administrator.penghuidemo.takephoto.model.TResult;
+import com.example.administrator.penghuidemo.takephoto.permission.InvokeListener;
+import com.example.administrator.penghuidemo.takephoto.permission.PermissionManager;
+import com.example.administrator.penghuidemo.takephoto.permission.TakePhotoInvocationHandler;
 
 
 /**

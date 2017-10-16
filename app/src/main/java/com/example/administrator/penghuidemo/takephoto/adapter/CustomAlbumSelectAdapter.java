@@ -7,11 +7,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.chuangweixin.app.R;
+import com.example.administrator.penghuidemo.R;
+import com.example.administrator.penghuidemo.takephoto.model.Album;
 
 import java.util.ArrayList;
 
-import takephoto.model.Album;
 
 /**
  * Created by Darshan on 4/14/2015.

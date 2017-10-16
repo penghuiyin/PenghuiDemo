@@ -4,12 +4,12 @@ package com.example.administrator.penghuidemo.takephoto.permission;
 
 
 
+import com.example.administrator.penghuidemo.takephoto.app.TakePhoto;
+import com.example.administrator.penghuidemo.takephoto.model.InvokeParam;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-
-import takephoto.app.TakePhoto;
-import takephoto.model.InvokeParam;
 
 public class TakePhotoInvocationHandler implements InvocationHandler {
     private TakePhoto delegate;

@@ -6,11 +6,10 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import android.util.Log;
 
-
-import takephoto.activity.AlbumActivity;
-import takephoto.contents.Constants;
-import takephoto.model.CropOptions;
-import takephoto.model.TContextWrap;
+import com.example.administrator.penghuidemo.takephoto.activity.AlbumActivity;
+import com.example.administrator.penghuidemo.takephoto.contents.Constants;
+import com.example.administrator.penghuidemo.takephoto.model.CropOptions;
+import com.example.administrator.penghuidemo.takephoto.model.TContextWrap;
 
 
 /**

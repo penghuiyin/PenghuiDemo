@@ -12,10 +12,9 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.chuangweixin.app.R;
-import com.chuangweixin.app.base.BaseActivity;
-
-import takephoto.contents.Constants;
+import com.example.administrator.penghuidemo.R;
+import com.example.administrator.penghuidemo.base.BaseActivity;
+import com.example.administrator.penghuidemo.takephoto.contents.Constants;
 
 
 /**
@@ -116,15 +115,5 @@ public class HelperActivity extends BaseActivity {
 
     protected void setView(View view) {
         this.view = view;
-    }
-
-    @Override
-    public void initView() {
-
-    }
-
-    @Override
-    public void initData() {
-
     }
 }

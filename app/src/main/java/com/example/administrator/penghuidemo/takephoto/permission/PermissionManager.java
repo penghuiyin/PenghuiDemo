@@ -9,16 +9,14 @@ import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-
-import com.chuangweixin.app.R;
+import com.example.administrator.penghuidemo.R;
+import com.example.administrator.penghuidemo.takephoto.app.TakePhoto;
+import com.example.administrator.penghuidemo.takephoto.model.InvokeParam;
+import com.example.administrator.penghuidemo.takephoto.model.TContextWrap;
+import com.example.administrator.penghuidemo.takephoto.uitl.TConstant;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-
-import takephoto.app.TakePhoto;
-import takephoto.model.InvokeParam;
-import takephoto.model.TContextWrap;
-import takephoto.uitl.TConstant;
 
 /**
  * Created by penn on 16/9/22.

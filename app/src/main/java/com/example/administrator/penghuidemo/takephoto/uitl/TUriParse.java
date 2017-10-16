@@ -12,14 +12,15 @@ import android.text.TextUtils;
 import android.util.Log;
 
 
+import com.example.administrator.penghuidemo.takephoto.model.TException;
+import com.example.administrator.penghuidemo.takephoto.model.TExceptionType;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import takephoto.model.TException;
-import takephoto.model.TExceptionType;
 
 
 /**

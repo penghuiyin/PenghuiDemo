@@ -2,18 +2,16 @@ package com.example.administrator.penghuidemo.takephoto.simpActivity;
 
 import android.net.Uri;
 import android.os.Environment;
-import android.view.View;
 
-import com.chuangweixin.app.R;
+import com.example.administrator.penghuidemo.takephoto.app.TakePhoto;
+import com.example.administrator.penghuidemo.takephoto.compress.CompressConfig;
+import com.example.administrator.penghuidemo.takephoto.model.CropOptions;
+import com.example.administrator.penghuidemo.takephoto.model.LubanOptions;
+import com.example.administrator.penghuidemo.takephoto.model.TakePhotoOptions;
 
 import java.io.File;
 
 import me.shaohui.advancedluban.Luban;
-import takephoto.app.TakePhoto;
-import takephoto.compress.CompressConfig;
-import takephoto.model.CropOptions;
-import takephoto.model.LubanOptions;
-import takephoto.model.TakePhotoOptions;
 
 public class CustomHelper{
     /** 选择照片的宽和高*/
@@ -34,7 +32,7 @@ public class CustomHelper{
      * 选择图片 是不是裁剪
      * */
 
-    public void setPicBySelect(TakePhoto takePhoto,int size,boolean isCrop){
+    public void setPicBySelect(TakePhoto takePhoto, int size, boolean isCrop){
 
         configCompress(takePhoto);
         configTakePhotoOpthion(takePhoto);

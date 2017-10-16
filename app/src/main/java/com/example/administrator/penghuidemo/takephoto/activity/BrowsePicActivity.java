@@ -13,17 +13,14 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.chuangweixin.app.AppContext;
-import com.chuangweixin.app.R;
-import com.chuangweixin.app.base.BaseActivity;
-import com.chuangweixin.app.utils.LogUtils;
+import com.example.administrator.penghuidemo.R;
+import com.example.administrator.penghuidemo.base.BaseActivity;
+import com.example.administrator.penghuidemo.takephoto.contents.Constants;
+import com.example.administrator.penghuidemo.takephoto.model.Image;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
-import takephoto.contents.Constants;
-import takephoto.model.Image;
 
 /**
  * Created by Administrator on 2017/6/13.
@@ -77,16 +74,6 @@ public class BrowsePicActivity extends BaseActivity {
                 imageViewList.add(image);// 添加view
             }
             viewPager.setAdapter(new PictureAdapter());
-    }
-
-    @Override
-    public void initView() {
-
-    }
-
-    @Override
-    public void initData() {
-
     }
 
     class PictureAdapter extends PagerAdapter {

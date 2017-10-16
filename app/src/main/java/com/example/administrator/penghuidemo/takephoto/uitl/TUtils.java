@@ -12,20 +12,19 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.chuangweixin.app.R;
+import com.example.administrator.penghuidemo.R;
+import com.example.administrator.penghuidemo.takephoto.model.CropOptions;
+import com.example.administrator.penghuidemo.takephoto.model.Image;
+import com.example.administrator.penghuidemo.takephoto.model.TContextWrap;
+import com.example.administrator.penghuidemo.takephoto.model.TException;
+import com.example.administrator.penghuidemo.takephoto.model.TExceptionType;
+import com.example.administrator.penghuidemo.takephoto.model.TImage;
+import com.example.administrator.penghuidemo.takephoto.model.TIntentWap;
 import com.soundcloud.android.crop.Crop;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
-import takephoto.model.CropOptions;
-import takephoto.model.Image;
-import takephoto.model.TContextWrap;
-import takephoto.model.TException;
-import takephoto.model.TExceptionType;
-import takephoto.model.TImage;
-import takephoto.model.TIntentWap;
 
 /**
  * 工具类

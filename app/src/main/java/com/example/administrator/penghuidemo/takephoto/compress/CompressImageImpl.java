@@ -4,10 +4,10 @@ import android.content.Context;
 import android.text.TextUtils;
 
 
+import com.example.administrator.penghuidemo.takephoto.model.TImage;
+
 import java.io.File;
 import java.util.ArrayList;
-
-import takephoto.model.TImage;
 
 /**
  * 压缩照片

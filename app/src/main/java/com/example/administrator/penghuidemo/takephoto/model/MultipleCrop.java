@@ -4,12 +4,12 @@ import android.app.Activity;
 import android.net.Uri;
 
 
+import com.example.administrator.penghuidemo.takephoto.uitl.TImageFiles;
+import com.example.administrator.penghuidemo.takephoto.uitl.TUtils;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
-import takephoto.uitl.TImageFiles;
-import takephoto.uitl.TUtils;
 
 /**
  * Author: JPH

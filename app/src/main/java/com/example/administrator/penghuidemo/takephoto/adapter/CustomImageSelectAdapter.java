@@ -9,11 +9,10 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
-import com.chuangweixin.app.R;
+import com.example.administrator.penghuidemo.R;
+import com.example.administrator.penghuidemo.takephoto.model.Image;
 
 import java.util.ArrayList;
-
-import takephoto.model.Image;
 
 /**
  * Created by Darshan on 4/18/2015.

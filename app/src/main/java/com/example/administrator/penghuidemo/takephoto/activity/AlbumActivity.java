@@ -23,8 +23,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-;
-
 import com.example.administrator.penghuidemo.R;
 import com.example.administrator.penghuidemo.TitteView.TitleWidget;
 import com.example.administrator.penghuidemo.slidingMenu.lib.SlidingMenu;
@@ -41,7 +39,7 @@ import java.util.HashSet;
 /**
  * 相册选择
  */
-public class AlbumActivity extends HelperActivity {
+public class AlbumActivity extends HelperActivity implements View.OnClickListener {
     SlidingMenu menu;
 
     /** 相册的图片*/
@@ -168,6 +166,7 @@ public class AlbumActivity extends HelperActivity {
                         break;
                     }
                     case Constants.FETCH_COMPLETED: {
+                        if (albums!=null&&albums.size()>0){
                         album = albums.get(in_dex).name;
                         loadImages();
                         if (adapter == null) {
@@ -177,6 +176,7 @@ public class AlbumActivity extends HelperActivity {
 //                            orientationBasedUI(getResources().getConfiguration().orientation);
                         } else {
                             adapter.notifyDataSetChanged();
+                        }
                         }
                         break;
                     }
@@ -244,6 +244,11 @@ public class AlbumActivity extends HelperActivity {
         if (images!=null&&imageSelectAdapter!=null){
             imageSelectAdapter.setItem(images);
         }
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
     }
 
     private class ImageLoaderRunnable implements Runnable {
@@ -504,7 +509,6 @@ public class AlbumActivity extends HelperActivity {
 
     @Override
     public void onClick(View v) {
-        super.onClick(v);
         switch (v.getId()){
             case R.id.tv_look://预览
                 if (countSelected>0){

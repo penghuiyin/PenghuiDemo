@@ -3,9 +3,9 @@ package com.example.administrator.penghuidemo.takephoto.compress;
 
 
 
-import java.util.ArrayList;
+import com.example.administrator.penghuidemo.takephoto.model.TImage;
 
-import takephoto.model.TImage;
+import java.util.ArrayList;
 
 /**
  * 压缩照片2.0

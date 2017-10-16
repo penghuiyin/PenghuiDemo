@@ -3,4 +3,42 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- 常用颜色值 -->
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="white40">#40FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#DD1718</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#Feff8e</color>
+    <color name="loginyellow">#dba510</color>
+    <color name="green">#008000</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="main_green">#40AA53</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="main_black">#333</color>
+    <color name="main_purple">#576B95</color>
+    <color name="red_light">#f97272</color>
+    <color name="red_main">#DD1718</color>
+    <color name="alpha">#00000000</color>
+    <color name="c87">#DE000000</color>
+    <color name="c54">#8A000000</color>
+    <color name="c54white">#8Affffff</color>
+    <color name="c12">#1F000000</color>
+    <color name="c12white">#1Fffffff</color>
+    <color name="c38white">#61ffffff</color>
+    <color name="c38">#61000000</color>
+
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="crop__selector_pressed">#1a000000</color>
 </resources>

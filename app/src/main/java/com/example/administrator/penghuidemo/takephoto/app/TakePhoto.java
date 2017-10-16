@@ -4,13 +4,13 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
-import takephoto.compress.CompressConfig;
-import takephoto.model.CropOptions;
-import takephoto.model.MultipleCrop;
-import takephoto.model.TException;
-import takephoto.model.TResult;
-import takephoto.model.TakePhotoOptions;
-import takephoto.permission.PermissionManager;
+import com.example.administrator.penghuidemo.takephoto.compress.CompressConfig;
+import com.example.administrator.penghuidemo.takephoto.model.CropOptions;
+import com.example.administrator.penghuidemo.takephoto.model.MultipleCrop;
+import com.example.administrator.penghuidemo.takephoto.model.TException;
+import com.example.administrator.penghuidemo.takephoto.model.TResult;
+import com.example.administrator.penghuidemo.takephoto.model.TakePhotoOptions;
+import com.example.administrator.penghuidemo.takephoto.permission.PermissionManager;
 
 
 public interface TakePhoto {

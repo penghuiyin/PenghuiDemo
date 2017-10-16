@@ -1,7 +1,7 @@
 package com.example.administrator.penghuidemo.takephoto.permission;
 
 
-import takephoto.model.InvokeParam;
+import com.example.administrator.penghuidemo.takephoto.model.InvokeParam;
 
 /**
  * 授权管理回调

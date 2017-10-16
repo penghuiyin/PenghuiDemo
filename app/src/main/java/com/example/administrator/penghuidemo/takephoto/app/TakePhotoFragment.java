@@ -5,14 +5,12 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 
-import com.chuangweixin.app.base.BaseFragment;
-
-import takephoto.model.InvokeParam;
-import takephoto.model.TContextWrap;
-import takephoto.model.TResult;
-import takephoto.permission.InvokeListener;
-import takephoto.permission.PermissionManager;
-import takephoto.permission.TakePhotoInvocationHandler;
+import com.example.administrator.penghuidemo.takephoto.model.InvokeParam;
+import com.example.administrator.penghuidemo.takephoto.model.TContextWrap;
+import com.example.administrator.penghuidemo.takephoto.model.TResult;
+import com.example.administrator.penghuidemo.takephoto.permission.InvokeListener;
+import com.example.administrator.penghuidemo.takephoto.permission.PermissionManager;
+import com.example.administrator.penghuidemo.takephoto.permission.TakePhotoInvocationHandler;
 
 /**
  * 继承这个类来让Fragment获取拍照的能力<br>
@@ -23,7 +21,7 @@ import takephoto.permission.TakePhotoInvocationHandler;
  * GitHub:https://github.com/crazycodeboy
  * Eamil:crazycodeboy@gmail.com
  */
-public class TakePhotoFragment extends BaseFragment implements TakePhoto.TakeResultListener,InvokeListener {
+public class TakePhotoFragment extends Fragment implements TakePhoto.TakeResultListener,InvokeListener {
     private static final String TAG = TakePhotoFragment.class.getName();
     private InvokeParam invokeParam;
     private TakePhoto takePhoto;

@@ -12,7 +12,9 @@ import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
 
-import com.chuangweixin.app.R;
+import com.example.administrator.penghuidemo.R;
+import com.example.administrator.penghuidemo.takephoto.model.TException;
+import com.example.administrator.penghuidemo.takephoto.model.TExceptionType;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -20,10 +22,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.UUID;
-
-import takephoto.model.TException;
-import takephoto.model.TExceptionType;
-
 /**
  * ImageFiles工具类
  * @author JPH

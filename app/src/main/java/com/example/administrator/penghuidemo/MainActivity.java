@@ -7,9 +7,11 @@ import android.support.v7.widget.AppCompatButton;
 import android.view.View;
 
 import com.example.administrator.penghuidemo.example.activty.TokoActivity;
+import com.example.administrator.penghuidemo.tbdownactivity.TabDownActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private AppCompatButton actv_toke_pice;
+    private AppCompatButton actv_tabout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +22,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void inintView() {
         actv_toke_pice=(AppCompatButton) findViewById(R.id.actv_toke_pice);
+        actv_tabout=(AppCompatButton) findViewById(R.id.actv_tabout);
         actv_toke_pice.setOnClickListener(this);
+        actv_tabout.setOnClickListener(this);
     }
 
     @Override
@@ -29,6 +33,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.actv_toke_pice:
                 Intent in=new Intent(this, TokoActivity.class);
                 startActivity(in);
+                break;
+            case R.id.actv_tabout:
+                Intent in1=new Intent(this, TabDownActivity.class);
+                startActivity(in1);
                 break;
         }
     }

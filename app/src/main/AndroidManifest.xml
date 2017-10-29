@@ -45,6 +45,7 @@
         <activity android:name=".takephoto.activity.AlbumActivity"/>
         <activity android:name=".takephoto.activity.BrowsePicActivity"/>
         <activity android:name=".takephoto.activity.HelperActivity"/>
+        <activity android:name=".tbdownactivity.TabDownActivity"/>
     </application>
 
 </manifest>

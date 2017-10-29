@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlyt_mrxq_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e7e7"
+    android:orientation="vertical"
+    >
+
+    <com.example.administrator.penghuidemo.TitteView.TitleWidget
+        android:id="@+id/title_mrxq_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.example.administrator.penghuidemo.View.tablewigit.CommonTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        tl:tl_iconGravity="RIGHT"
+        tl:tl_iconHeight="14dp"
+        tl:tl_iconMargin="5dp"
+        tl:tl_iconWidth="14dp"
+        tl:tl_tab_space_equal="true"
+        tl:tl_textSelectColor="#e43740"
+        tl:tl_textUnselectColor="#444444"
+        tl:tl_textsize="14sp" />
+    <include layout="@layout/layout_tab_content" />
+
+</LinearLayout>

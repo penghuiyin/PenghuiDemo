@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.penghuidemo.View.tablewigit.DropDownLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dropdown"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main">
+    <RelativeLayout
+        android:id="@+id/rlyt_mrxq_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/hv_mrxq_sxtj"
+        >
+
+
+    </RelativeLayout>
+    <com.example.administrator.penghuidemo.View.tablewigit.MaskView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a9000000" />
+
+
+    <com.example.administrator.penghuidemo.View.tablewigit.MenuLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"/>
+</com.example.administrator.penghuidemo.View.tablewigit.DropDownLayout>

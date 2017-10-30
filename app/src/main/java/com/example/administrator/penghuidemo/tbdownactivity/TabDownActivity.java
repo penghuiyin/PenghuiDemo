@@ -2,7 +2,6 @@ package com.example.administrator.penghuidemo.tbdownactivity;
 
 import android.app.Fragment;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 
 import com.example.administrator.penghuidemo.R;
 import com.example.administrator.penghuidemo.View.tablewigit.CommonTabLayout;
@@ -35,10 +34,9 @@ public class TabDownActivity extends BaseActivity implements OnMaskViewIsShowLis
     private ArrayList<CustomTabEntity> mTabEntities = new ArrayList<>();
     private DropDownLayout dropDownLayout;
     private MenuLayout menuLayout;
-
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab_foot);
         initTab();
     }

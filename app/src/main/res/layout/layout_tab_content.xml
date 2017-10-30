@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.administrator.penghuidemo.View.tablewigit.DropDownLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.example.administrator.penghuidemo.View.tablewigit.DropDownLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/dropdown"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:showIn="@layout/activity_main">
+    android:layout_height="match_parent">
     <RelativeLayout
         android:id="@+id/rlyt_mrxq_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/hv_mrxq_sxtj"
         >
-
 
     </RelativeLayout>
     <com.example.administrator.penghuidemo.View.tablewigit.MaskView

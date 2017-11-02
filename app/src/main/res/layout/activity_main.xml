@@ -24,6 +24,12 @@
             android:layout_height="48dp"
             android:text="TabLout"
             />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/actv_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="滚轮"
+            />
     </LinearLayout>
 </ScrollView>
 

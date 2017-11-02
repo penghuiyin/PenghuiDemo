@@ -46,6 +46,7 @@
         <activity android:name=".takephoto.activity.BrowsePicActivity"/>
         <activity android:name=".takephoto.activity.HelperActivity"/>
         <activity android:name=".tbdownactivity.TabDownActivity"/>
+        <activity android:name=".example.activty.WeelActiviy"/>
     </application>
 
 </manifest>

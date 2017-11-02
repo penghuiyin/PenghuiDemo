@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.example.administrator.penghuidemo.TitteView.TitleWidget
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/acbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="单条测试"
+        />
+    <include
+        android:id="@+id/llyt_wheelview"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/activity_wheelview"
+        />
+</LinearLayout>
